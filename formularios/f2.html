@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>f2</title>
+</head>
+<body>
+    <form action="index.html" method="get" enctype="multipart/form-data">
+        <table border="1">
+            <tr>
+                <th colspan="2">Pizza Shop 2.0</th>
+            </tr>
+
+            <tr>
+                <td>Name</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Pizza Topping</td>
+                <td>
+                    <input type="radio" name="ria" value="2"><label for="radio">Supreme</label><br>
+                    <input type="radio" name="ria" value="2"><label for="radio">Vegetarian</label><br>
+                    <input type="radio" name="ria" value="2"><label for="radio">Hawaiian</label><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Pizza Sauce</td>
+                <td><select name="pizza" id="pizza">
+                    <option value="Tomato">Tomato</option>
+                    <option value="Cheese">Cheese</option>
+                    <option value="Pepperoni">Pepperoni</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Optional Extras</td>
+                <td><input type="checkbox"><label for="check">Extra Cheese</label><input type="checkbox"><label for="check">Gluten Free Base</label></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Delivery Instructions:<br>
+                <textarea name="area" id="" cols="50" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Send My Order"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
